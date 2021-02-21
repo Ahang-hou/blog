@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: password
+    name: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+server:
+  port: 8081
